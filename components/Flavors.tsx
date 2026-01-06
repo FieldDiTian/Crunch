@@ -8,21 +8,21 @@ const chipFlavors = [
     profile: "Umami / Smoky / Earthy",
     target: "Gen Z Urbanites",
     score: "94.8",
-    img: "https://images.unsplash.com/photo-1599488611731-0158b282c967?q=80&w=600&auto=format"
+    img: "/assets/flavor_korean_bbq.webp"
   },
   {
     name: "Spicy Honey Hot-Pot",
     profile: "Sweet / Heat / Sichuan",
     target: "Spicy Adventurers",
     score: "91.2",
-    img: "https://images.unsplash.com/photo-1613918108466-292b78a8ef95?q=80&w=600&auto=format"
+    img: "/assets/flavor_spicy_honey.webp"
   },
   {
     name: "Yuzu Dill Pickle",
     profile: "Zesty / Acidic / Refreshing",
     target: "Wellness Enthusiasts",
     score: "89.5",
-    img: "https://images.unsplash.com/photo-1566478989037-eec170784d0b?q=80&w=600&auto=format"
+    img: "/assets/flavor_yuzu_dill.webp"
   }
 ];
 
@@ -39,16 +39,16 @@ export const Flavors: React.FC = () => {
             View Prediction Engine <span className="text-xl">→</span>
           </button>
         </div>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {chipFlavors.map((flavor, idx) => (
             <div key={idx} className="bg-stone-50 rounded-[2rem] overflow-hidden border border-stone-200 group">
               <div className="h-64 relative overflow-hidden bg-stone-200">
-                <img 
-                  src={flavor.img} 
-                  alt={flavor.name} 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  loading="lazy" 
+                <img
+                  src={flavor.img}
+                  alt={flavor.name}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
                   referrerPolicy="no-referrer"
                 />
                 <AIBadge label={`SCORE: ${flavor.score}%`} className="bottom-4 right-4" />

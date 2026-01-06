@@ -15,10 +15,10 @@ export const WhyAI: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1">
-            <img 
-              src="https://images.unsplash.com/photo-1613919113166-796ca33c19ee?auto=format&fit=crop&q=80&w=1000" 
-              className="rounded-[3rem] shadow-2xl" 
-              alt="Packaging Lineup" 
+            <img
+              src="/assets/why_ai_packaging.webp"
+              className="rounded-[3rem] shadow-2xl"
+              alt="Packaging Lineup"
               loading="lazy"
             />
           </div>

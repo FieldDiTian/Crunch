@@ -28,7 +28,7 @@ export const Hero: React.FC = () => {
         <div className="flex-1 relative">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl rotate-3 transform transition-transform hover:rotate-0 duration-700 bg-stone-200">
             <img 
-              src="https://images.unsplash.com/photo-1613918108466-292b78a8ef95?q=80&w=1200&auto=format" 
+              src="/assets/hero_chips_ai.webp" 
               alt="Premium Seasoned Chips" 
               className="w-full h-[500px] object-cover"
               loading="eager"
