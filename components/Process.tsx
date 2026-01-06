@@ -5,17 +5,17 @@ const steps = [
   {
     title: "Trend Detection",
     desc: "AI scans viral food conversations, TikTok recipes, and taste signals in real-time.",
-    img: "/assets/process_trend.webp"
+    img: "/trend detection.png"
   },
   {
     title: "Flavor Generation",
     desc: "Neural networks combine seasoning ratios to hit precise umami and heat profiles.",
-    img: "/assets/process_flavor_gen.webp"
+    img: "/flavor generation.png"
   },
   {
     title: "Instant Launch",
     desc: "AI automatically generates names, slogans, and high-converting social media creative.",
-    img: "/assets/process_launch.webp"
+    img: "/instant launch.png"
   }
 ];
 

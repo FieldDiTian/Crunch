@@ -14,7 +14,7 @@ export const Problem: React.FC = () => {
           <div className="space-y-4">
             <div className="relative group bg-stone-100 rounded-2xl overflow-hidden">
               <img
-                src="/assets/problem_boring_chips.webp"
+                src="/standard potato chips.png"
                 alt="Standard Potato Chips"
                 className="w-full h-64 object-cover filter grayscale opacity-60 transition-all group-hover:grayscale-0 group-hover:opacity-100"
                 loading="lazy"
@@ -25,7 +25,7 @@ export const Problem: React.FC = () => {
               </div>
             </div>
             <img
-              src="/assets/problem_spices.webp"
+              src="/raw spices.png"
               alt="Raw Spices"
               className="rounded-2xl w-full h-40 object-cover bg-stone-100"
               loading="lazy"
@@ -34,7 +34,7 @@ export const Problem: React.FC = () => {
           </div>
           <div className="pt-12">
             <img
-              src="/assets/problem_gourmet_chips.webp"
+              src="/gourmet chips.png"
               alt="Gourmet Chips"
               className="rounded-2xl w-full h-[400px] object-cover shadow-xl ring-8 ring-yellow-500/10 bg-stone-100"
               loading="lazy"

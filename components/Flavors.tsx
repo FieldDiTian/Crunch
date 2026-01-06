@@ -15,14 +15,14 @@ const chipFlavors = [
     profile: "Sweet / Heat / Sichuan",
     target: "Spicy Adventurers",
     score: "91.2",
-    img: "/assets/flavor_spicy_honey.webp"
+    img: "/SPICY HONEY HOT-POT.png"
   },
   {
     name: "Yuzu Dill Pickle",
     profile: "Zesty / Acidic / Refreshing",
     target: "Wellness Enthusiasts",
     score: "89.5",
-    img: "/assets/flavor_yuzu_dill.webp"
+    img: "/YUZU DILL PICKLE.png"
   }
 ];
 

@@ -23,17 +23,17 @@ export const Solution: React.FC = () => {
 
           <div className="flex-1 grid grid-cols-3 gap-2 relative">
             <div className="relative group">
-              <img src="/assets/solution_plain.webp" className="rounded-xl h-64 w-full object-cover" alt="Plain" loading="lazy" referrerPolicy="no-referrer" />
+              <img src="/plain base.png" className="rounded-xl h-64 w-full object-cover" alt="Plain" loading="lazy" referrerPolicy="no-referrer" />
               <AIBadge label="RAW_DATA" className="top-2 left-2" variant="dark" />
               <div className="text-center mt-2 text-xs font-bold text-stone-500">PLAIN BASE</div>
             </div>
             <div className="relative group translate-y-8">
-              <img src="/assets/solution_seasoned.webp" className="rounded-xl h-64 w-full object-cover" alt="Seasoned" loading="lazy" referrerPolicy="no-referrer" />
+              <img src="/optimized seasoning.png" className="rounded-xl h-64 w-full object-cover" alt="Seasoned" loading="lazy" referrerPolicy="no-referrer" />
               <AIBadge label="FLAVOR_SCORE: 0.94" className="top-2 left-2" variant="dark" />
               <div className="text-center mt-2 text-xs font-bold text-yellow-500">OPTIMIZED SEASONING</div>
             </div>
             <div className="relative group translate-y-16">
-              <img src="/assets/solution_packaged.webp" className="rounded-xl h-64 w-full object-cover shadow-2xl" alt="Packaged" loading="lazy" referrerPolicy="no-referrer" />
+              <img src="/shelf ready.png" className="rounded-xl h-64 w-full object-cover shadow-2xl" alt="Packaged" loading="lazy" referrerPolicy="no-referrer" />
               <AIBadge label="MARKET_SYNC" className="top-2 left-2" variant="dark" />
               <div className="text-center mt-2 text-xs font-bold text-green-500">SHELF READY</div>
             </div>

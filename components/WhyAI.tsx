@@ -16,7 +16,7 @@ export const WhyAI: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1">
             <img
-              src="/assets/why_ai_packaging.webp"
+              src="/packaging line up.png"
               className="rounded-[3rem] shadow-2xl"
               alt="Packaging Lineup"
               loading="lazy"
